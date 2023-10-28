@@ -18,6 +18,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: Test with unittest
         run: |
+          cd /home/runner/work/PythonWorkshop/PythonWorkshop
           ls -ls
           pwd
-          python test_solver.py
+          python3 /home/runner/work/PythonWorkshop/PythonWorkshop/test_solver.py
