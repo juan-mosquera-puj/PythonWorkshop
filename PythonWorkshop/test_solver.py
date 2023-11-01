@@ -10,7 +10,6 @@ class MyTestCase(unittest.TestCase):
 
         self.assertRaises(Exception)
 
-
 if __name__ == '__main__':
     unittest.main()
 
